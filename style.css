@@ -1,0 +1,24 @@
+/* Sip or Save: paper, wine red and gold. Deliberately without external fonts, scripts, cookies or analytics. */
+:root{--paper:#F6EFE6;--surface:#FFFCF8;--ink:#2A1A1E;--muted:#6E5E61;--line:#E2D3BE;--wine:#6E1F2E;--gold:#C9A24A}
+@media (prefers-color-scheme:dark){
+  :root{--paper:#3B1F27;--surface:#4A2932;--ink:#F3E6D8;--muted:#CDB9B0;--line:#6A4550;--wine:#F0A9B6;--gold:#D9B865}
+}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--paper);color:var(--ink)}
+body{font-family:-apple-system,BlinkMacSystemFont,"Helvetica Neue",Roboto,Arial,sans-serif;font-size:16px;line-height:1.55}
+.wrap{max-width:680px;margin:0 auto;padding:32px 20px 64px}
+h1,h2{font-family:Georgia,"Noto Serif",serif;font-weight:700;letter-spacing:-.01em;line-height:1.2}
+h1{font-size:30px;margin:0 0 6px}
+h2{font-size:20px;margin:30px 0 8px}
+p,li{max-width:62ch}
+.brand{font-family:Georgia,"Noto Serif",serif;font-size:15px;letter-spacing:.18em;text-transform:uppercase;color:var(--gold);margin:0 0 10px}
+.meta{color:var(--muted);font-size:14px;margin:0 0 20px}
+.summary{background:var(--surface);border:1px solid var(--line);border-left:3px solid var(--gold);border-radius:4px;padding:14px 16px;margin:0 0 8px}
+.lang{display:flex;flex-wrap:wrap;gap:14px;margin:0 0 24px;font-size:15px}
+a{color:var(--wine)}
+ul{padding-left:20px}
+li{margin:4px 0}
+table{border-collapse:collapse;width:100%;font-size:15px;margin:8px 0}
+th,td{text-align:left;vertical-align:top;padding:8px 10px;border-bottom:1px solid var(--line)}
+th{font-weight:600}
+hr{border:0;border-top:1px solid var(--line);margin:48px 0 32px}
